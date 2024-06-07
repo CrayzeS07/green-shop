@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  text-decoration: none;
+  list-style: none;
+  padding: 1px;
+}
+.container {
+  max-width: 1210px;
+  margin: auto;
+  padding: auto;
+}
+.searchInput {
+  background-image: url("../../public/search1.svg");
+  background-repeat: no-repeat;
+  background-size: 22px;
+  background-position: 11px center;
+}
