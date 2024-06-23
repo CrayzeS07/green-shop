@@ -111,3 +111,4 @@ export const CatalogIcon = () => {
     </svg>
   );
 };
+

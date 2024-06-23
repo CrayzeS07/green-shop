@@ -45,10 +45,10 @@ export const Navbar = () => {
           <li
             key={item.id}
             className={`font-normal ${
-              item.isActive ? " font-bold border-b-[3px]" : "font-normal"
+              item.isActive ? "font-bold border-b-[3px] " : "font-normal"
             } text-[14px] leading-[20.11px] text-[#3D3D3D]  pb-[30px] border-[#46A358] lg:text-[16px]`}
           >
-            <Link href={item.path}>{item.title}</Link>
+            <Link href={item.path}>{item.title}</Link>  
           </li>
         ))}
       </ul>

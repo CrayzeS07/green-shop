@@ -2,19 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
 * {
+  padding: 0;
+  margin: 0;
   text-decoration: none;
   list-style: none;
-  padding: 1px;
 }
-.container {
-  max-width: 1210px;
-  margin: auto;
-  padding: auto;
-}
-.searchInput {
-  background-image: url("../../public/search1.svg");
+.ModalB {
+  background-image: url("https://retaildesignblog.net/wp-content/uploads/2020/10/14-Green-Shop-780x1169.jpg");
   background-repeat: no-repeat;
-  background-size: 22px;
-  background-position: 11px center;
+  background-position: center;
+}
+.ant-slider-handle{
+  background-color: #46A358 !important;
 }
