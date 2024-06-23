@@ -15,7 +15,7 @@ import { URL } from "@/service/request";
 const Header = () => {
   const [loginModal, setLoginModal] = useState<boolean>(false);
   const [isModalContent, setModalContent] =
-    useState<string>("forgotVerifyLogin");
+    useState<string>("Login");
   const pathName = usePathname();
 
   const NavbarList = [
@@ -114,7 +114,7 @@ const Header = () => {
             >
               {!showSearchInput && <Search />}
             </button>
-            <input
+           <input
               onChange={handleSearchChangeInput}
               className={`${
                 showSearchInput
@@ -122,19 +122,19 @@ const Header = () => {
                   : "w-[0px]"
               } searchInput rounded-[10px] bg-[#F8F8F8] duration-300 outline-none text-[14px] focus:shadow`}
               type="search"
-              placeholder="O'zingizning o'tlarini qidiring"
+              placeholder="Find your plants"
               autoComplete="off"
-              aria-label="O'zingizning o'tlarini qidiring"
+              aria-label="Find your plants"
               name="plant search"
             />
             <div className="flex sm:hidden">
               <input
                 onChange={handleSearchChangeInput}
-                className="w-[313px] h-[45px] leading-[16px] pl-[41px] searchInput rounded-[10px] bg-[#F8F8F8] duration-300 outline-none text-[14px] focus:shadow"
+                 className="w-[313px] h-[45px] leading-[16px] pl-[41px] searchInput rounded-[10px] bg-[#F8F8F8] duration-300 outline-none text-[14px] focus:shadow"
                 type="search"
-                placeholder="O'zingizning o'tlarini qidiring"
+                placeholder="Find your plants"
                 autoComplete="off"
-                aria-label="O'zingizning o'tlarini qidiring"
+                aria-label="Find your plants"
                 name="plant search"
               />
             </div>

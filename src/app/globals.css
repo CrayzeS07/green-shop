@@ -22,3 +22,13 @@
 .ant-slider-handle{
   background-color: #46A358 !important;
 }
+.call{
+  padding: 23px;
+  height:88px;
+}
+.mess{
+  padding: 10px;
+}
+.footerEnd{
+  padding: 10px;
+}
